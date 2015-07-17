@@ -1,0 +1,11 @@
+{
+	"repo": "aureooms/js-graph-theory-notation",
+	"license": "AGPL-3.0",
+	"description": "Graph theory notation code bricks for JavaScript",
+	"name": "aureooms-js-graph-theory-notation",
+	"scripts": [
+		"js/dist/graph-theory-notation.js"
+	],
+	"version": "0.0.0",
+	"main": "js/dist/graph-theory-notation.js"
+}
