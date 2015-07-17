@@ -1,7 +1,11 @@
 [js-graph-theory-notation](http://aureooms.github.io/js-graph-theory-notation)
 ==
 
-Graph theory notation code bricks for JavaScript
+Graph theory notation code bricks for JavaScript.
+
+```js
+for ( let v of V( G ) ) ... ;
+```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-graph-theory-notation.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-graph-theory-notation/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-graph-theory-notation.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-graph-theory-notation)
@@ -93,3 +97,17 @@ Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/
 ```js
 require( [ "aureooms-js-graph-theory-notation" ] , function ( graphtheorynotation ) { ... } ) ;
 ```
+
+
+## Use
+
+```js
+let { V , E , N } = graphtheorynotation ;
+
+for ( let v of V( G ) ) ... ;
+
+for ( let e of E( G ) ) ... ;
+
+for ( let v of N( G , u ) ) ... ;
+```
+

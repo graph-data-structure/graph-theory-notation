@@ -13,5 +13,6 @@
 			"graph-theory-notation.js"
 		]
 	},
-	"name": "graph-theory-notation"
+	"name": "graph-theory-notation",
+	"babel": true
 }

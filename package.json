@@ -1,37 +1,39 @@
 {
-	"spm": {
-		"main": "js/dist/graph-theory-notation.js"
-	},
-	"devDependencies": {
-		"aureooms-node-package": "^4.2.5"
-	},
-	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
-	"author": "aureooms",
-	"description": "Graph theory notation code bricks for JavaScript",
-	"dependencies": {},
-	"license": "AGPL-3.0",
-	"main": "js/dist/graph-theory-notation.js",
-	"bugs": {
-		"url": "https://github.com/aureooms/js-graph-theory-notation/issues"
-	},
-	"name": "aureooms-js-graph-theory-notation",
-	"keywords": [
-		"bricks",
-		"ender",
-		"graph",
-		"javascript",
-		"js",
-		"notation",
-		"theory"
-	],
-	"scripts": {
-		"test": "./node_modules/.bin/aureooms-node-package-test",
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"doc": "./node_modules/.bin/groc"
-	},
-	"version": "0.0.1",
-	"repository": {
-		"url": "https://github.com/aureooms/js-graph-theory-notation.git",
-		"type": "git"
-	}
+  "spm": {
+    "main": "js/dist/graph-theory-notation.js"
+  },
+  "devDependencies": {
+    "aureooms-js-adjacency-matrix": "^1.0.0",
+    "aureooms-js-itertools": "^1.1.2",
+    "aureooms-node-package": "^4.2.5"
+  },
+  "homepage": "http://aureooms.github.io/js-graph-theory-notation/",
+  "author": "aureooms",
+  "description": "Graph theory notation code bricks for JavaScript",
+  "dependencies": {},
+  "license": "AGPL-3.0",
+  "main": "js/dist/graph-theory-notation.js",
+  "bugs": {
+    "url": "https://github.com/aureooms/js-graph-theory-notation/issues"
+  },
+  "name": "aureooms-js-graph-theory-notation",
+  "keywords": [
+    "bricks",
+    "ender",
+    "graph",
+    "javascript",
+    "js",
+    "notation",
+    "theory"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/aureooms-node-package-test",
+    "build": "./node_modules/.bin/aureooms-node-package-build",
+    "doc": "./node_modules/.bin/groc"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/aureooms/js-graph-theory-notation.git",
+    "type": "git"
+  }
 }
