@@ -29,7 +29,7 @@
 		"build": "./node_modules/.bin/aureooms-node-package-build",
 		"doc": "./node_modules/.bin/groc"
 	},
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"repository": {
 		"url": "https://github.com/aureooms/js-graph-theory-notation.git",
 		"type": "git"

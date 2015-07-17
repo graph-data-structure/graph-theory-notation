@@ -16,6 +16,6 @@
 	],
 	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
 	"name": "aureooms-js-graph-theory-notation",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"main": "js/dist/graph-theory-notation.js"
 }
