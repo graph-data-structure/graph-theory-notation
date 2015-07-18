@@ -72,9 +72,9 @@ test( "Matrix with References" , function ( ) {
 
 		ex( map( function ( x ) {
 			--k ;
-			ok( set.has( x ) , 'eitr ' + m + ' ' + k ) ;
+			ok( set.has( x ) , 'iitr ' + m + ' ' + k ) ;
 			set.delete( x ) ;
-		} , g.eitr( v[m] ) ) ) ;
+		} , g.iitr( v[m] ) ) ) ;
 
 	} ) ;
 
@@ -119,9 +119,9 @@ test( "Matrix with References" , function ( ) {
 
 		ex( map( function ( x ) {
 			--k ;
-			ok( set.has( x ) , 'eitr ' + m + ' ' + k ) ;
+			ok( set.has( x ) , 'iitr ' + m + ' ' + k ) ;
 			set.delete( x ) ;
-		} , g.eitr( v[m] ) ) ) ;
+		} , g.iitr( v[m] ) ) ) ;
 
 	} ) ;
 
@@ -153,8 +153,8 @@ test( "Matrix with References" , function ( ) {
 
 	ex( map( function ( i ) {
 		ex( map( function ( e ) {
-			ok(false, 'eitr never go here');
-		} , g.eitr( i ) ) ) ;
+			ok(false, 'iitr never go here');
+		} , g.iitr( i ) ) ) ;
 	} , V( g ) ) ) ;
 
 	// delete remaining vertices

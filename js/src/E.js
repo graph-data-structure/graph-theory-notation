@@ -1,4 +1,4 @@
 
-const E = ( G ) => G.aeitr( ) ;
+const E = ( G ) => G.eitr( ) ;
 
 exports.E = E ;
