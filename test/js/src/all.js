@@ -12,7 +12,7 @@ var N = graphtheorynotation.N ;
 
 test( "Matrix with References" , function ( ) {
 
-	var Graph = adjacencymatrix.Matrix.References ;
+	var Graph = adjacencymatrix.Matrix ;
 
 	var g = new Graph( ) ;
 
@@ -24,16 +24,16 @@ test( "Matrix with References" , function ( ) {
 	for( var i = 0 ; i < n ; ++i ) v[i] = g.vadd( ) ;
 
 	e[1] = [ ] ;
-	e[1][0] = g.eadd(v[1], v[9], 18);
+	e[1][0] = g.eadd(v[1], v[9] );
 	e[0] = [ ] ;
-	e[0][0] = g.eadd(v[0], v[10], 7);
-	e[0][1] = g.eadd(v[0], v[5], 2);
-	e[0][2] = g.eadd(v[0], v[3], 5);
-	e[0][3] = g.eadd(v[0], v[1], 456);
-	e[0][4] = g.eadd(v[0], v[0], 5);
+	e[0][0] = g.eadd(v[0], v[10]);
+	e[0][1] = g.eadd(v[0], v[5]);
+	e[0][2] = g.eadd(v[0], v[3]);
+	e[0][3] = g.eadd(v[0], v[1]);
+	e[0][4] = g.eadd(v[0], v[0]);
 	e[1][1] = e[0][3];
 	e[4] = [ ] ;
-	e[4][0] = g.eadd(v[4], v[7], 5);
+	e[4][0] = g.eadd(v[4], v[7]);
 
 	var r = [ 0 , 1 , 4 ] ;
 
@@ -99,7 +99,8 @@ test( "Matrix with References" , function ( ) {
 	deepEqual( k , alledges.length , 'check edges count after del' ) ;
 
 	k = 0 ;
-	set = new WeakSet( map ( function ( e ) {
+	set = new WeakSet( map ( function ( _e ) {
+		var e = g.endpoints( _e ) ;
 		return e[0] === v[0] ? e[1] : e[0] ;
 	} , e[0] ) ) ;
 

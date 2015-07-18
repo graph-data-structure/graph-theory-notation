@@ -9,7 +9,7 @@
 		/* js/src/E.js */
 
 		var E = function E(G) {
-			return G.aeitr();
+			return G.eitr();
 		};
 
 		exports.E = E;
