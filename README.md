@@ -1,7 +1,8 @@
 [js-graph-theory-notation](http://aureooms.github.io/js-graph-theory-notation)
 ==
 
-Graph theory notation code bricks for JavaScript.
+Graph theory notation code bricks for JavaScript. Parent is
+[js-gn](https://github.com/aureooms/js-gn).
 
 ```js
 for ( let v of V( G ) ) ... ;
