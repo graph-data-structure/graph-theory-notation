@@ -3,9 +3,9 @@
 		"main": "js/dist/graph-theory-notation.js"
 	},
 	"devDependencies": {
-		"aureooms-js-adjacency-matrix": "^2.0.1",
+		"aureooms-js-adjacency-matrix": "^3.1.6",
 		"aureooms-js-itertools": "^1.1.2",
-		"aureooms-node-package": "^4.2.5"
+		"aureooms-node-package": "^6.0.1"
 	},
 	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
 	"author": "aureooms",
