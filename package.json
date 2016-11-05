@@ -5,7 +5,7 @@
 	"devDependencies": {
 		"aureooms-js-adjacency-matrix": "^2.0.1",
 		"aureooms-js-itertools": "^3.0.0",
-		"aureooms-node-package": "^4.2.5"
+		"aureooms-node-package": "^7.0.0"
 	},
 	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
 	"author": "aureooms",
