@@ -1,7 +1,7 @@
 
 
-var itertools = require( "aureooms-js-itertools" ) ;
-var adjacencymatrix = require( "aureooms-js-adjacency-matrix" ) ;
+var itertools = require( "@aureooms/js-itertools" ) ;
+var adjacencymatrix = require( "@aureooms/js-adjacency-matrix" ) ;
 
 var  ex = itertools.exhaust ;
 var map = itertools.map ;

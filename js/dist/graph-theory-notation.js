@@ -35,10 +35,10 @@
 	if (typeof exports === "object") {
 		definition(exports);
 	} else if (typeof define === "function" && define.amd) {
-		define("aureooms-js-graph-theory-notation", [], function () {
+		define("@aureooms/js-graph-theory-notation", [], function () {
 			return definition({});
 		});
 	} else if (typeof window === "object" && typeof window.document === "object") {
 		definition(window["graphtheorynotation"] = {});
-	} else console.error("unable to detect type of module to define for aureooms-js-graph-theory-notation");
+	} else console.error("unable to detect type of module to define for @aureooms/js-graph-theory-notation");
 })();
