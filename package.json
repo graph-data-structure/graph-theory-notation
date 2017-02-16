@@ -3,8 +3,8 @@
 		"main": "js/dist/graph-theory-notation.js"
 	},
 	"devDependencies": {
-		"aureooms-js-adjacency-matrix": "^2.0.1",
-		"aureooms-js-itertools": "^3.0.0",
+		"@aureooms/js-adjacency-matrix": "^2.0.1",
+		"@aureooms/js-itertools": "^3.0.0",
 		"aureooms-node-package": "^4.2.5"
 	},
 	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
@@ -16,7 +16,7 @@
 	"bugs": {
 		"url": "https://github.com/aureooms/js-graph-theory-notation/issues"
 	},
-	"name": "aureooms-js-graph-theory-notation",
+	"name": "@aureooms/js-graph-theory-notation",
 	"keywords": [
 		"bricks",
 		"ender",
