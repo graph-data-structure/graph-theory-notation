@@ -1,4 +1,4 @@
-[js-graph-theory-notation](http://aureooms.github.io/js-graph-theory-notation)
+[js-graph-theory-notation](http://make-github-pseudonymous-again.github.io/js-graph-theory-notation)
 ==
 
 Graph theory notation code bricks for JavaScript. Parent is

@@ -7,7 +7,7 @@
 		"@aureooms/js-itertools": "^3.0.0",
 		"aureooms-node-package": "^4.2.5"
 	},
-	"homepage": "http://aureooms.github.io/js-graph-theory-notation/",
+	"homepage": "http://make-github-pseudonymous-again.github.io/js-graph-theory-notation/",
 	"author": "aureooms",
 	"description": "Graph theory notation code bricks for JavaScript",
 	"dependencies": {},
