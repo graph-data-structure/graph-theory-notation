@@ -8,7 +8,7 @@ Graph theory notation code bricks for JavaScript. Parent is
 for ( let v of V( G ) ) ... ;
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-graph-theory-notation.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-graph-theory-notation/master/LICENSE)
+[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-graph-theory-notation.svg?style=flat)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-graph-theory-notation/main/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-graph-theory-notation.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-graph-theory-notation)
 [![Bower version](https://img.shields.io/bower/v/@aureooms/js-graph-theory-notation.svg?style=flat)](http://bower.io/search/?q=@aureooms/js-graph-theory-notation)
 [![Build Status](https://img.shields.io/travis/make-github-pseudonymous-again/js-graph-theory-notation.svg?style=flat)](https://travis-ci.org/make-github-pseudonymous-again/js-graph-theory-notation)
